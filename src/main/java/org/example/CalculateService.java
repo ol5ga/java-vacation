@@ -8,7 +8,6 @@ import org.springframework.stereotype.Service;
 public class CalculateService {
     public Double getPayment(double salary, int days) {
         return salary/29.3 * days;
-
     }
 }
 
